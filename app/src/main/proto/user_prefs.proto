@@ -1,0 +1,9 @@
+    syntax = "proto3";
+
+    option java_package = "com.aowen.datastore";
+    option java_multiple_files = true;
+
+    message UserPrefs {
+      string username = 1;
+      int32 color = 2;
+    }
